@@ -1,0 +1,27 @@
+// Every screen in the app. The root widget in main.dart switches on this
+// enum, so adding a screen means adding a value here plus a case there.
+enum Screen {
+  splash,
+  onboarding1,
+  onboarding2,
+  welcome,
+  signin,
+  signup,
+  forgot,
+  verify,
+  address,
+  home,
+  search,
+  orders,
+  profile,
+  restaurant,
+  item,
+  cart,
+  checkout,
+  addresses,
+  payment,
+  processing,
+  success,
+  orderDetail,
+  service,
+}
